@@ -71,8 +71,13 @@ WSGI_APPLICATION = 'Prisms.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd1e4aboh77cnut',
+        'USER': 'vsiamesizqufql',
+        'PASSWORD': '55cf8fc671e33763ca80cfc6d4e873258700cc6df0c1127b6255b97c18db32fd',
+        'HOST': 'ec2-3-93-160-246.compute-1.amazonaws.com',
+        'PORT': '5432',
+
     }
 }
 
