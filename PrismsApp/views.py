@@ -53,4 +53,4 @@ def logout(request):
     return render(request, 'MainWebsite/index.html')
 
 def dashboard(request):
-    return render(request, 'Prisms/dashboard.html')
+    return render(request, 'prisms/dashboard.html')
