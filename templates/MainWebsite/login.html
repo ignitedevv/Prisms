@@ -1,0 +1,15 @@
+{% extends 'MainWebsite/base.html' %}
+
+{% block content %}
+    <h1>Login</h1>
+
+    <form method="Post">
+    {% csrf_token %}
+    {{ form.username }}
+    {{ form.password }}
+
+    <button type="submit">submit</button>
+
+    </form>
+
+{% endblock %}
